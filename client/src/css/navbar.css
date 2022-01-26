@@ -1,0 +1,50 @@
+.navbar {
+  font-size: 1em;
+  padding: 0.5em;
+  position: sticky;
+  top: 0;
+  background-color: #ff7a61;
+  width: 100vw;
+  z-index: 1;
+}
+
+.google-button-login {
+  background-color: #ff7a61;
+  border: none;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: lighter;
+  text-decoration: none;
+  font: inherit;
+  font-size: 20px;
+}
+
+.google-button-login:hover {
+  background-color: #ff7a61;
+  cursor: pointer;
+  color: #f8c0b6;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__home:hover a,
+.navbar__dashboard:hover a {
+  cursor: pointer;
+  color: #f8c0b6;
+}
+
+.navbar__home,
+.navbar__dashboard {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.navbar__elements {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-left: 0.5em;
+}

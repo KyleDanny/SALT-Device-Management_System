@@ -1,0 +1,78 @@
+/* History Container */
+
+.historyCard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  width: 50%;
+  border-radius: 2px;
+  margin-top: 5em;
+  height: 70vh;
+  align-items: flex-start;
+  gap: 5em;
+}
+
+/* User History */
+
+.userHistoryCard {
+  margin-top: 5em;
+}
+
+.userHistoryCard h3 {
+  color: #ff7a61;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.deviceHistoryCard h3 {
+  color: #ff7a61;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.userHistoryTable__container__table{
+  width: 100%;
+  border: 1px solid white;
+  margin-top: 2em;
+}
+
+.userHistoryTable__container__table th{
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.userHistoryTable__container__table td{
+  border: 1px solid white;
+  padding: 5px;
+}
+
+/* Device History */
+
+.deviceHistoryCard {
+  margin-top:0;
+}
+
+/* .deviceHistoryTable__container{
+  width: 100%;
+  border: 1px solid red;
+  margin-top: 2em;
+} */
+
+.deviceHistoryTable__container__table{
+  border-radius: 2px;
+  width: 100%;
+  border: 1px solid white;
+  margin-top: 2em;
+}
+
+.deviceHistoryTable__container__table th{
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.deviceHistoryTable__container__table td{
+  border: 1px solid white;
+  padding: 5px;
+}

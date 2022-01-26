@@ -1,0 +1,40 @@
+.updateFormContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.updateFormContainer div {
+  margin-top: 1em;
+}
+
+.table-row-update td input {
+  width: 100%;
+  font-size: 1em;
+  background-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.table-row-update td input:focus {
+  outline: none;
+}
+
+.updateFormLabel {
+  font-size: 1em;
+  color: white;
+}
+
+.updateFormInput {
+  background-color: #ff7a61;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  color: white;
+}

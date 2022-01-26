@@ -1,0 +1,67 @@
+body {
+  color: black;
+}
+
+/* Dashboard */
+
+.table-background {
+  background-color: black;
+}
+
+.dashboard__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard__title {
+  margin-left: 55px;
+  margin-top: 15px
+}
+
+.dashboard__title h1 {
+  font-size: 3em;
+  margin: 0 0;
+}
+
+.dashboard__title h2 {
+  color: lightgrey;
+  margin: 0 0;
+}
+
+.dashboard__user {
+  display: flex;
+  justify-content:space-between;
+  margin: 24px;
+}
+
+/* User Info */
+.profile-img {
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 25px;
+  margin-right: 1em;
+}
+.dashboard__tabs-btns{
+  margin: 10px;
+  
+}
+.dashboard__dev-lap-btn,
+.dashboard__core-lap-btn,
+.dashboard__core-cell-btn{
+  background-color: black;
+  color: #FF7A61;
+  border-style: none;
+  margin: 25px;
+  font-size: large;
+
+ 
+}
+.dashboard__dev-lap-btn:hover,
+.dashboard__core-lap-btn:hover,
+.dashboard__core-cell-btn:hover{
+box-shadow: inset 0 -1px 0 0 #FF7A61; 
+
+cursor: pointer;
+color: #f8c0b6;
+
+}

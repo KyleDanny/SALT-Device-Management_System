@@ -1,0 +1,116 @@
+.devComputerInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 0;
+  width: 100%;
+  text-align: left;
+  background-color: black;
+}
+
+/* Dev Computer Card */
+
+.devComputerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100vh;
+  color: black;
+  background-color: #ff7a61;
+}
+
+.devComputerCard-height {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* .devUpdateForm {
+  height: 100%;
+} */
+
+.devComputerCard__computer-name {
+  margin-top: 1.5em;
+  font-size: 2em;
+  color: black;
+  text-align: left;
+}
+
+.devComputerCard__computer-name h2 {
+  font-weight: 300;
+}
+
+.laptopImage {
+  width: 45%;
+  height: 35%;
+  background: url(../css/macbook.svg) no-repeat center center;
+  border: .2px solid black;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+.devComputerCardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  height: 30%;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.devComputerCardInfo div {
+  margin-top: .6em;
+}
+
+.devComputerCard__buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Buttons */
+
+.devComputerCard__edit-button,
+.devComputerCard__delete-button,
+.update-button,
+.cancel-button{
+  background-color: rgba(104, 207, 207, 0.9);
+  border: 1px solid rgba(104, 207, 207, 0.9);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0; 
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0; 
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 0;
+  margin: 0.5em;
+}
+.devComputerCard__delete-button,
+.cancel-button {
+  background-color: red;
+  border: 1px solid red;
+}
+.devComputerCard__edit-button:hover,
+.submit-button:hover,
+.devComputerCard__delete-button:hover,
+.update-button:hover,
+.cancel-button:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}

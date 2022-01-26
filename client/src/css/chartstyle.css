@@ -1,0 +1,27 @@
+.charts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.LineGraph {
+  width: 35%;
+  margin: 2em 1em;
+  padding: 1em;
+  border: .2px solid white;
+}
+
+.DoughnutChart {
+  width: 18.5%;
+  margin: 2em 1em;
+  padding: 1em;
+  border: .2px solid white;
+}
+
+.BarChart {
+  width: 35%;
+  margin: 2em 1em;
+  padding: 1em;
+  border: .2px solid white;
+}

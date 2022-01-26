@@ -1,0 +1,212 @@
+.devComputerCard__controls {
+  display: flex;
+  justify-content: center;
+}
+
+.devComputerCard__controls--width {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.devComputerCard__controls-sub-title {
+  align-self: flex-start;
+  margin-bottom: 0.5em;
+  width: 225px;
+  text-align: left;
+}
+
+.devComputerCard__controls-search {
+  align-self: flex-end;
+  margin-bottom: 0.6em;
+}
+
+.devComputerCard__controls-search label{
+  font-size: 1.2em;
+}
+
+.devComputerCard__controls-search input {
+  background-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 1.2em;
+}
+
+.devComputerCard__controls-search input:focus {
+  outline: none;
+}
+
+
+.devComputerCard__controls-button {
+  margin-right: 0;
+  margin-bottom: 0.5em;
+}
+
+.devComputerCard__add-button,
+.create-submit-button {
+  background-color: rgba(104, 207, 207, 0.9);
+  border: 1px solid rgba(104, 207, 207, 0.9);
+  border-radius: 4px;
+  /* box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0; */
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  /* outline: none;
+  outline: 0; */
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 0;
+}
+.create-submit-button {
+  padding: 4px 10px;
+  font-size: 9px;
+}
+.devComputerCard__add-button:hover,
+.create-submit-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+/* Table */
+
+.dashboard__table {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: .5em;
+  /* overflow:scroll;
+  height: 450px; */
+}
+
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  /* even columns width , fix width of table too*/
+}
+
+thead {
+  margin-right: 0px;
+}
+
+tbody {
+  display: block;
+  height: 350px;
+  overflow: auto;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 0 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  /* min-width: 400px; */
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: rgba(75, 192, 192, 1);
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #222222;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #dddddd;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.center-item {
+  text-align: center;
+}
+
+/* in table */
+
+td a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+td a:hover {
+  text-decoration: none;
+  color: rgb(172, 204, 204);
+}
+
+.dev-com__info-link {
+  color: white;
+  font-weight: bold;
+}
+
+/* dashboard buttons */
+
+.dashboard-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edit-icon i {
+  font-size: 1.2em;
+  color: rgb(172, 204, 204);
+}
+
+.edit-icon:hover {
+  cursor: pointer;
+}
+
+.delete-icon {
+  font-size: 1.2em;
+  color: #ff7a61;
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+}
+
+.update-green {
+  font-size: 1.4em;
+  color: rgb(172, 204, 204);
+}
+
+.update-green:hover {
+  cursor: pointer;
+}
+
+.cancel-icon {
+  font-size: 1.4em;
+  color: #ff7a61;
+}
+
+.cancel-icon:hover {
+  cursor: pointer;
+}
