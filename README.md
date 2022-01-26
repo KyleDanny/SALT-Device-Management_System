@@ -9,7 +9,8 @@ No more excel spreadsheets for you, sir! :page_facing_up: :nerd_face:
 
 Check it out: [SALT_Device-Management-System](https://slap-public.herokuapp.com/)
 
-## Tech Stack 
+## Tech Stack (MERN)
+
 #### Front end
 * React
 * GoogleAuth
@@ -21,7 +22,7 @@ Check it out: [SALT_Device-Management-System](https://slap-public.herokuapp.com/
 * Mongoose (database)
 * JWT's
 
-### Deployment :rocket:
+#### Deployment :rocket:
 * Front end deployed on Heroku
 * Back end deployed on Heroku 
 
